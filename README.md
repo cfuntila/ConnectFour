@@ -5,7 +5,7 @@ Connect Four implemented with Python.
 ## Getting Started
 
 Download all python files in this repository and in your terminal go to the location of those saved files. 
-Now input the following command. You may need to add permissions to your file using the command: "chmod +x ./ConnectFour.py".
+Now input the following command. Note: You may need to add permissions to your file using the command: "chmod +x ./ConnectFour.py".
 
 ```console
 foo@bar:~$ ./ConnectFour.py
