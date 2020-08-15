@@ -6,11 +6,11 @@ import random
 
 def print_who_won_or_tie(curr_player, red_player, yellow_player, tie):
     if curr_player == red_player:
-        print("Red Player won!")
+        print("RED PLAYER WINS!")
     elif curr_player == yellow_player:
-        print("Yellow Player won!")
+        print("YELLOW PLAYER WINS!")
     elif tie:
-        print("Tie!")
+        print("TIE!")
 
 def change_turn(curr_player, red_player, yellow_player):
     if curr_player == red_player:
@@ -28,7 +28,9 @@ def main():
     max_moves, curr_num_moves = 42, 0
 
     # keep playing as long there are still open slots and the game is not won
+    print(b)
     while not game_won:
+        print(f"Iteration: {curr_num_moves + 1}")
         val = curr_player.get_val()
         col = random.randint(0, 6)
 
